@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Formulario simple</title>
+        <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+        <link rel="stylesheet" type="text/css" href="../CSS/estilos.css" />
+        
+    </head>
+    <body>
+        <form id="fomulario" action="../Formulario" method="post"> 
+            <fieldset><!-- Primer fieldset: Datos personales -->
+                <legend><em><strong>Datos personales</strong></em></legend>
+                <p><label for="nombre">Nombre</label>&nbsp;&nbsp;
+                    <input type="text" id="nombre" name="nombre" tabindex="1" placeholder="Ej. Jaime" /></p>
+                <p><label for="fechaNac">Fecha de nacimiento</label>&nbsp;&nbsp;
+                <input type="date" name="fechaNac" id="fehcaNac" tabindex="2" /></p>
+                <p><label>G&eacute;nero</label><br>
+                    <input type="radio" name="genero" value="Mujer" checked="checked">Mujer<br>
+                    <input type="radio" name="genero" value="Hombre">Hombre<br>
+                    <input type="radio" name="genero" value="Otro">Otro<br>
+            </fieldset>
+            <fieldset><!-- Primer fieldset: Datos personales -->
+                <legend><em><strong>Las cosas que te gustan</strong></em></legend>
+                <p><label for="marca">Pulsa y marca</label><br>
+                    <input type="checkbox" name="marca" value="Deportes" />Deportes<br>
+                    <input type="checkbox" name="marca" value="Cine" />Cine<br>
+                    <input type="checkbox" name="marca" value="Musica" />M&uacute;sica
+                </p>
+                
+            </fieldset>
+            <p><input type="submit" name="enviar" value="Enviar" /></p>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+body {
+    background-color: #9FF781;
+    font-family: Verdana;	
+    font-size: 1em;
+} 
+h1 {
+    color: #088A68;
+}
+legend {
+    color:#298A08;
+}
+p {
+    color:brown;
+}
+#fomulario fieldset {
+    width:65%; 
+    background-color: #E1F5A9 
+}   
+#fomulario input  {
+    margin-left:10px; 
+    text-align: left;
+}
+div#menu {
+    width: 50%;
+    position: relative;
+    float: left;
+    left: 25%;
+    border: 2px solid blue;
+    padding-top: 15px;
+    padding-left: 20px;
+    margin-top: 50px;
+}
+div#error {
+    width: 50%;
+    position: relative;
+    float: left;
+    left: 25%;
+    border: 2px solid red;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}

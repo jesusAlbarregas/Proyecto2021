@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Men&uacute;</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="CSS/estilos.css" />
+    </head>
+    <body>
+        <div id="menu">
+        <h1>Llamadas a Servlets</h1>
+        <p><a href="Informacion">Informaci&oacute;n del contexto</a></p>
+        <p><a href="MetodoEnvio?saludo=hola&numero=12.8&error=0">Llamadas por el método GET</a></p>
+        <form action="MetodoEnvio" method="post">
+            <input type="hidden" name="param1" value="hola mundo"/>
+            <input type="hidden" name="param2" value="ahora no llueve"/>
+            <input type="submit" value="Enviar" name="enviar"/>
+        </form>
+        <p><a href="html/formuSimple.html">Formulario simple</a></p>
+        </div>
+    </body>
+</html>
