@@ -43,7 +43,7 @@ public class Formulario extends HttpServlet {
             out.println("</head>");
             out.println("<body>");
             out.println("<div id='error'>");
-            out.println("<h2>sSe está intentando acceder sin pasar por el formulario.</h2>");
+            out.println("<h2>Se está intentando acceder sin pasar por el formulario.</h2>");
             out.println("<p><a href=\".\">Menú</a></p>");
             out.println("</div>");
             out.println("</body>");
