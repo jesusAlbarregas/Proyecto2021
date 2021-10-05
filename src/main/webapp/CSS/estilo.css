@@ -1,0 +1,109 @@
+@CHARSET "UTF-8";
+body {
+    font-family: Verdana;	
+    font-size: 1em;
+}
+div#contenido {
+    position: relative;
+    width: 50%;
+    left: 25%;
+    padding: 10px;
+    border: blue solid 2px;
+    text-align: center;
+    margin-top: 30px;
+}
+div#contenido a {
+    text-decoration: none;
+}
+div#contenido table {
+    position: relative;
+    width: 80%;
+    left: 10%;
+}
+div#contenido span.botones {
+    width: 30%;
+    
+    
+}
+div#errores {
+    position: relative;
+    width: 50%;
+    left: 25%;
+    padding: 5px;
+    border: red double 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+fieldset {
+    width: 90%; 
+    border: none;
+}
+legend {
+    font-style: italic; 
+    font-size: .9em; 
+    color: blue; 
+}
+table caption {
+    font-style: italic;
+}
+td[colspan="2"] {
+    text-align: center;
+}
+table.pie {
+    position: relative; 
+    left: 10%; 
+    width: 30%; 
+} 
+table.pie td {
+    text-align: center; 
+}
+div {
+    border-bottom: 2px ridge black;
+}
+p.error, span.error, h2.error {
+    color: red;
+    font-style: italic;
+}
+div.codigo {
+    border-bottom: 2px ridge blue;
+}
+div.codigo input {
+    color: red;
+    border: none;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+h2 {
+    text-align: center;
+    font-size: 1.1em;
+}
+div.flotante {
+    width: 30%;
+    position: relative;
+    float: left;
+    border: none;
+    margin-left: 10%;
+}
+p.titulo {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.1em;
+}
+ol a {
+    text-decoration: none;
+}
+.boton {
+    font-size: 1em;
+    font-family: verdana;
+}
+div.resuelto {
+    display: none;
+    margin: 10px 0px;
+    border: none;
+}
+li ol {
+    list-style-type: lower-latin;
+}
+a.enlace {
+    cursor: pointer;
+}

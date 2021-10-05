@@ -1,21 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
     <head>
-        <title>Men&uacute;</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" type="text/css" href="CSS/estilos.css" />
+        <title>Ejercicios de clase</title>
+        <link rel="stylesheet" type="text/css" href="CSS/estilo.css" />
+        
     </head>
     <body>
-        <div id="menu">
-        <h1>Llamadas a Servlets</h1>
-        <p><a href="Informacion">Informaci&oacute;n del contexto</a></p>
-        <p><a href="MetodoEnvio?saludo=hola&numero=12.8&error=0">Llamadas por el método GET</a></p>
-        <form action="MetodoEnvio" method="post">
-            <input type="hidden" name="param1" value="hola mundo"/>
-            <input type="hidden" name="param2" value="ahora no llueve"/>
-            <input type="submit" value="Enviar" name="enviar"/>
-        </form>
-        <p><a href="html/formuSimple.html">Formulario simple</a></p>
+        <h2>Indice de ejercicios</h2>
+        <div id="contenedor" style="border: none;">
+            <div class="flotante" style="border: none;">
+
+                <p class="titulo">Servlets</p>
+                <ol>
+                    <li><a href="Informacion">Hola Mundo Servlet</a></li>
+                    <li><a href="CicloVida">Ciclo de vida de un Servlet</a></li>
+                    <li><a href="html/formuSimple.html">Formulario simple</a></li>
+                  
+                    
+
+                    <li><a href="CabecerasPeticion">Cabeceras de petición</a></li>
+                    <li><a href="InfoCliente?param1=12&param2=10">Información del cliente</a></li>
+
+                    <li><a href="#">Configurando los Servlets</a></li>
+                    <li><a href="#">Gestión declarativa de errores</a></li>
+
+                    
+                </ol>
+            </div>
+            <div class="flotante" style="border: none;">
+                <p class="titulo">JavaServer Pages (JSP)</p>
+                <ol>
+                    <li><a href="html/entrada.html">Saludo</a></li>
+                    <li><a href="html/edad.html">Edad de una persona</a></li>
+                    <li><a href="#">Calculadora básica</a></li>
+                    
+                    <li><a href="#">Mi nombre con cookies</a></li>
+                    
+
+                    
+                </ol>
+            </div>
+            <div class="flotante" style="border: none;">
+                <p class="titulo">Librer&iacute;a JSTL</p>
+                <ol>
+                    <li><a href="#">Colores</a></li>
+               </ol>
+            </div>
+            <div class="flotante" style="border: none;">
+                <p class="titulo">Etiquetas personalizadas</p>
+                <ol>
+                    <li><a href="#">Número aleatorio</a></li>
+               </ol>
+            </div>
+            
         </div>
+
     </body>
 </html>
