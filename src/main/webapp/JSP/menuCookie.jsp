@@ -39,11 +39,8 @@
                         <td colspan="4"></td>
                     </tr>
                     <tr>
-                        <%
-                            String mensaje = (request.getParameter("mensaje") != null) ? request.getParameter("mensaje") : "";
-                        %>
+                        <td colspan="4"><%= (request.getParameter("mensaje") != null) ? request.getParameter("mensaje") : "" %></td>
                         
-                        <td colspan="4"><%= mensaje %></td>
                     </tr>
                 </table>
             </div>
