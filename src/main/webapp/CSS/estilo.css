@@ -107,3 +107,6 @@ li ol {
 a.enlace {
     cursor: pointer;
 }
+table#general td {
+    text-align: left;
+}
